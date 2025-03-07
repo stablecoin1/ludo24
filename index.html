@@ -141,7 +141,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
-
+<!-- Twitter conversion tracking event code -->
+<script type="text/javascript">
+  // Insert Twitter Event ID
+  twq('event', 'tw-p7h03-p7h04', {
+    value: null, // use this to pass the value of the conversion (e.g. 5.00)
+    currency: null, // use this to pass the currency of the conversion with an ISO 4217 code (e.g. ‘USD’)
+    contents: [ // use this to pass an array of products or content
+        // add all items to the array
+        // use this for the first item
+        {
+          content_type: null,
+          content_id: null,
+          content_name: null,
+          content_price: null,
+          num_items: null,
+          content_group_id: null
+        },
+        // use this for the second item
+        {
+          content_type: null,
+          content_id: null,
+          content_name: null,
+          content_price: null,
+          num_items: null,
+          content_group_id: null
+        }], 
+    conversion_id: null, // use this to pass a unique ID for the conversion event for deduplication (e.g. order id '1a2b3c')
+    email_address: null // use this to pass a user’s email address
+  });
+</script>
+<!-- End Twitter conversion tracking event code -->
 <body>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7W8NGGK"
